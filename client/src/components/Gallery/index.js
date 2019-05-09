@@ -8,7 +8,7 @@ class Gallery extends Component {
             title: props.title,
             authors: props.authors,
             description: props.description,
-            image: props.image,
+            image: props.image.thumbnail,
             link: props.link
           })
     }
