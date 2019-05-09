@@ -51,7 +51,7 @@ class SavedBooks extends Component {
                                 <div className="book-inner-flex">
                                 <a className="book" href={link} target="_blank">
                                     <div className="book-image-wrapper">
-                                        <img src={image[0] !== undefined ? image[0].thumbnail : altImage}
+                                        <img src={image !== undefined ? image : altImage}
                                             alt="Book Image"
                                             className="book-image"
                                         />
